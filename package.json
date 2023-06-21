@@ -1,9 +1,9 @@
 {
-	"name": "@salesforce/sfdx-scanner",
+	"name": "@MelonTechnologiesLLC/sfdx-scanner",
 	"description": "Static code scanner that applies quality and security rules to Apex code, and provides feedback.",
 	"version": "3.13.0",
 	"author": "ISV SWAT",
-	"bugs": "https://github.com/forcedotcom/sfdx-scanner/issues",
+	"bugs": "https://github.com/MelonTechnologiesLLC/sfdx-scanner/issues",
 	"dependencies": {
 		"@babel/core": "^7.11.0",
 		"@babel/eslint-parser": "^7",
@@ -127,7 +127,7 @@
 		"functions": "90",
 		"statements": "90"
 	},
-	"repository": "forcedotcom/sfdx-scanner",
+	"repository": "MelonTechnologiesLLC/sfdx-scanner",
 	"scripts": {
 		"build": "./gradlew build -x test",
 		"prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
